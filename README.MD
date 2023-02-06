@@ -23,20 +23,20 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio <a id="about-project"></a>
+# 📖 Full-stack dev program <a id="about-project"></a>
 
-> Project created for showing my expirience as a software developer
+> In this capstone project, I am going to create an online website for a company that gives a course to be a full-stack developer.
 
 ## 🛠 Built With <a id="built-with"></a>
 
 ### Tech Stack <a id="tech-stack"></a>
 
-> HTML & CSS
+> HTML, CSS & JavaScript
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="#">HTML & CSS</a></li>
+    <li><a href="#">HTML, CSS & JavaScript</a></li>
   </ul>
 </details>
 
@@ -58,8 +58,8 @@
 
 ### Key Features <a id="key-features"></a>
 
-- Show's the best of my work as a software developer
-- Responsive web
+- Show's the progress in my learning path as a software developer.
+- Responsive web.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -70,7 +70,7 @@
 > Add a link to your deployed project.
 
 
-- [Live Demo Link](https://davidespinog.github.io/portfolio/)
+- [Live Demo Link](https://github.com/Jrmcuervo/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -86,14 +86,14 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-> git clone https://github.com/DavidEspinoG/portfolio.git
+> git clone https://github.com/Jrmcuervo/Full-stack-dev-program.git
 > (you can open it via live server in VS)
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-> git clone https://github.com/DavidEspinoG/portfolio.git
+> git clone https://github.com/Jrmcuervo/Full-stack-dev-program.git
 
 ### Install
 
@@ -124,11 +124,10 @@ N/A
 ## 👥 Authors <a id="authors"></a>
 
 
-👤 **David Espino**
+👤 **Ruben Cuervo**
 
-- GitHub: [@DavidEspinoG](https://github.com/DavidEspinoG)
-- Twitter: [@DavidEspinoG](https://twitter.com/DavidEspinoG)
-- LinkedIn: [davidespinog](https://linkedin.com/in/davidespinog)
+- GitHub: [@Jrmcuervo](https://github.com/Jrmcuervo)
+- LinkedIn: [jrmcuervom](https://www.linkedin.com/in/jrmcuervom/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
