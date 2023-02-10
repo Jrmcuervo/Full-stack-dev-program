@@ -121,7 +121,7 @@ N/A
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a id="authors"></a>
+## 👥 Author <a id="authors"></a>
 
 
 👤 **Ruben Cuervo**
