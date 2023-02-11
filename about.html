@@ -13,27 +13,36 @@
 </head>
 
 <body>
+    <div class="desktop__mediaBar">
+        <img class="desktop__mediaImg" src="./icons/twitter.png" alt="twitter icon">
+        <img class="desktop__mediaImg" src="./icons/facebook.png" alt="facebook icon">
+        <p class="desktop__mediaParagraph">Logout</p>
+        <p class="desktop__mediaParagraph">My Page</p>
+        <p class="desktop__mediaParagraph">English</p>
+    </div>
     <!-- =====Header navigation===== -->
     <header class="header">
         <div class="header__nav">
-            <button class="header__btn">
-                <img>
+            <button class="header__btn" id="btnOpen">
                 <span class="material-symbols-outlined">
                     list
                 </span>
-                </img>
             </button>
-            <nav class="header__menu">
+            <nav class="header__menu" id="btnClose">
+                <img class="header__img" src="./images/cc.logo.large.png" alt="Company logo">
+                <div>
+                    <ul class="header__li">
+                        <li><a class="header__a" href="./index.html">Home</a></li>
+                        <li><a class="header__a" href="#">Program</a></li>
+                        <li><a class="header__a" href="#">Join</a></li>
+                        <li><a class="header__a" href="#">Sponsor</a></li>
+                        <li><a class="header__a" href="#">News</a></li>
+                        <li><a class="header__a" href="#">CC Campaign</a></li>
+                    </ul>
+                </div>
                 <span class="material-symbols-outlined">
                     close
                 </span>
-                <img src="./images/logo-generic.svg" alt="Company logo">
-                <div>
-                    <ul>
-                        <li><a href="">HOME</a></li>
-                        <li><a href="">ABOUT</a></li>
-                    </ul>
-                </div>
             </nav>
         </div>
     </header>
@@ -42,7 +51,8 @@
         <div class="headline">
             <h1 class="headline__title">"Hello community!"</h1>
             <p class="headline__subtitle">Come with us, learn how to program in the highest paid language of 2023</p>
-            <p class="headline__paragraph">Learn in-demand Full Stack Software Development among other courses in a
+            <p class="headline__paragraph--about">Learn in-demand Full Stack Software Development among other courses in
+                a
                 flexible and mentored online
                 program. Full Stack Software Development Program by Happy Coding. No prior coding experience required.
             </p>
@@ -90,14 +100,12 @@
             <p class="graduates__paragraph">Take a look at last two HC generations of full-stack developer course
                 graduates</p>
             <div class="graduates__bkg">
-                <!-- <img src="./images/graduate2.jpg" alt="picture of graduates"> -->
-                <div class="test">
+                <div>
                     <h3 class="graduates__h3">2020</h3>
                     <p class="graduates__generatios">HC graduates from Ecatepec, Edo. Mex.</p>
                 </div>
             </div>
-            <div class="graduates__bkg">
-                <!-- <img src="./images/graduate1.jpg" alt="picture of graduation caps"> -->
+            <div class="graduates__bkg2">
                 <div>
                     <h3 class="graduates__h3">2021</h3>
                     <p class="graduates__generatios">HC graduates from Huixquilucan, Edo. Mex.</p>
@@ -113,9 +121,9 @@
         </div>
         <div class="partner__logos">
             <img class="partner__logo" src="./images/mozilla.png" alt="mozzilla logo">
-            <img class="partner__logo" src="./images/google.svg" alt="google logo">
+            <img class="partner__logo" src="./images/google.png" alt="google logo">
             <img class="partner__logo" src="./images/angular.png" alt="angular logo">
-            <img class="partner__logo" src="./images/airtable.png" alt="airtable logo">
+            <img class="partner__logo airtable" src="./images/airtable.png" alt="airtable logo">
             <img class="partner__logo airbnb" src="./images/airbnb.png" alt="airbnb logo">
         </div>
     </section>
@@ -128,6 +136,7 @@
             </p>
         </div>
     </footer>
+    <script src="toggler.js"></script>
 </body>
 
 </body>

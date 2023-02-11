@@ -13,25 +13,36 @@
 </head>
 
 <body>
+    <div class="desktop__mediaBar">
+        <img class="desktop__mediaImg" src="./icons/twitter.png" alt="twitter icon">
+        <img class="desktop__mediaImg" src="./icons/facebook.png" alt="facebook icon">
+        <p class="desktop__mediaParagraph">Logout</p>
+        <p class="desktop__mediaParagraph">My Page</p>
+        <p class="desktop__mediaParagraph">English</p>
+    </div>
     <!-- =====Header navigation===== -->
     <header class="header">
         <div class="header__nav">
-            <button class="header__btn">
+            <button class="header__btn" id="btnOpen">
                 <span class="material-symbols-outlined">
                     list
                 </span>
             </button>
-            <nav class="header__menu">
+            <nav class="header__menu" id="btnClose">
+                <img class="header__img" src="./images/cc.logo.large.png" alt="Company logo">
+                <div>
+                    <ul class="header__li">
+                        <li><a class="header__a" href="./about.html">About</a></li>
+                        <li><a class="header__a" href="#">Program</a></li>
+                        <li><a class="header__a" href="#">Join</a></li>
+                        <li><a class="header__a" href="#">Sponsor</a></li>
+                        <li><a class="header__a" href="#">News</a></li>
+                        <li><a class="header__a" href="#">CC Campaign</a></li>
+                    </ul>
+                </div>
                 <span class="material-symbols-outlined">
                     close
                 </span>
-                <img src="./images/logo-generic.svg" alt="Company logo">
-                <div>
-                    <ul>
-                        <li><a href="">HOME</a></li>
-                        <li><a href="">ABOUT</a></li>
-                    </ul>
-                </div>
             </nav>
         </div>
     </header>
@@ -112,8 +123,8 @@
             <h2 class="tutors__title">Professors</h2>
             <hr class="tutors__hr">
         </div>
-        <div>
-            <!-- =====Profiles===== -->
+        <div id="professionalProfiles">
+            <!-- =====Dynamic Profiles===== -->
         </div>
         <button class="tutors__btn">
             <p class="tutors__icon">More<span class="material-symbols-outlined tutors__arrow">
@@ -129,6 +140,9 @@
             </p>
         </div>
     </footer>
+    <script src="profiles.js"></script>
+    <script src="toggler.js"></script>
 </body>
+
 
 </html>
