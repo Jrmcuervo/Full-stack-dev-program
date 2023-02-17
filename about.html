@@ -13,13 +13,7 @@
 </head>
 
 <body>
-    <div class="desktop__mediaBar">
-        <img class="desktop__mediaImg" src="./icons/twitter.png" alt="twitter icon">
-        <img class="desktop__mediaImg" src="./icons/facebook.png" alt="facebook icon">
-        <p class="desktop__mediaParagraph">Logout</p>
-        <p class="desktop__mediaParagraph">My Page</p>
-        <p class="desktop__mediaParagraph">English</p>
-    </div>
+
     <!-- =====Header navigation===== -->
     <header class="header">
         <div class="header__nav">
@@ -29,10 +23,9 @@
                 </span>
             </button>
             <nav class="header__menu" id="btnClose">
-                <img class="header__img" src="./images/cc.logo.large.png" alt="Company logo">
+                <a href="./index.html"><img class="header__img" src="./images/cc.logo.large.png" alt="Company logo"></a>
                 <div>
                     <ul class="header__li">
-                        <li><a class="header__a" href="./index.html">Home</a></li>
                         <li><a class="header__a" href="#">Program</a></li>
                         <li><a class="header__a" href="#">Join</a></li>
                         <li><a class="header__a" href="#">Sponsor</a></li>
@@ -46,10 +39,33 @@
             </nav>
         </div>
     </header>
+    <!-- =====Desktop media bar===== -->
+    <div class="desktop__mediaBar">
+        <img class="desktop__mediaImg" src="./icons/twitter.png" alt="twitter icon">
+        <img class="desktop__mediaImg" src="./icons/facebook.png" alt="facebook icon">
+        <p class="desktop__mediaParagraph">Logout</p>
+        <p class="desktop__mediaParagraph">My Page</p>
+        <p class="desktop__mediaParagraph">English</p>
+    </div>
+
+    <!-- =====Desktop menu===== -->
+    <nav class="desktop__menu" id="">
+        <a href="./index.html"><img class="header__img" src="./images/cc.logo.large.png" alt="Company logo"></a>
+        <div>
+            <ul class="header__li">
+                <li><a class="header__a" href="./about.html">About</a></li>
+                <li><a class="header__a cl-blk" href="#">Program</a></li>
+                <li><a class="header__a cl-blk" href="#">Join</a></li>
+                <li><a class="header__a cl-blk" href="#">Sponsor</a></li>
+                <li><a class="header__a cl-blk" href="#">News</a></li>
+                <li><a class="header__a" href="#">CC Campaign</a></li>
+            </ul>
+        </div>
+    </nav>
     <!-- =====Headline===== -->
     <section>
-        <div class="headline">
-            <h1 class="headline__title">"Hello community!"</h1>
+        <div class="headline hd-about">
+            <h1 class="headline__title mr-about">"Hello community!"</h1>
             <p class="headline__subtitle">Come with us, learn how to program in the highest paid language of 2023</p>
             <p class="headline__paragraph--about">Learn in-demand Full Stack Software Development among other courses in
                 a
@@ -67,19 +83,6 @@
 
         </div>
     </section>
-    <!-- =====Us===== -->
-    <!-- <main>
-        <section>
-            <div>
-                <div>
-                    <h2></h2>
-                    <hr>
-                </div>
-                <p>
-                </p>
-                <img src="" alt="">
-            </div>
-        </section> -->
     <!-- =====Our history===== -->
     <section class="about">
         <div class="about__content">
@@ -99,16 +102,18 @@
             </div>
             <p class="graduates__paragraph">Take a look at last two HC generations of full-stack developer course
                 graduates</p>
-            <div class="graduates__bkg">
-                <div>
-                    <h3 class="graduates__h3">2020</h3>
-                    <p class="graduates__generatios">HC graduates from Ecatepec, Edo. Mex.</p>
+            <div class="dektop__graduates">
+                <div class="graduates__bkg">
+                    <div>
+                        <h3 class="graduates__h3">2020</h3>
+                        <p class="graduates__generatios">HC graduates from Ecatepec, Edo. Mex.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="graduates__bkg2">
-                <div>
-                    <h3 class="graduates__h3">2021</h3>
-                    <p class="graduates__generatios">HC graduates from Huixquilucan, Edo. Mex.</p>
+                <div class="graduates__bkg2">
+                    <div>
+                        <h3 class="graduates__h3">2021</h3>
+                        <p class="graduates__generatios">HC graduates from Huixquilucan, Edo. Mex.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -130,8 +135,9 @@
     </main>
     <!-- =====Footer===== -->
     <footer>
-        <div class="footer__content">
-            <img class="footer__logo" src="./images/cc.logo.large.png" alt="creative commons logo">
+        <div class="footer__content footer-color">
+            <img class="footer__logo mobile-logo" src="./images/cc.logo.large.png" alt="creative commons logo">
+            <img class="footer__logo desktop-logo" src="./images/cc.logo.largewhite.png" alt="creative commons logo">
             <p class="footer__paragraph">2023 Happy Coding Educational Experiences Mexico <br> Some Rights Reserved.
             </p>
         </div>

@@ -13,13 +13,6 @@
 </head>
 
 <body>
-    <div class="desktop__mediaBar">
-        <img class="desktop__mediaImg" src="./icons/twitter.png" alt="twitter icon">
-        <img class="desktop__mediaImg" src="./icons/facebook.png" alt="facebook icon">
-        <p class="desktop__mediaParagraph">Logout</p>
-        <p class="desktop__mediaParagraph">My Page</p>
-        <p class="desktop__mediaParagraph">English</p>
-    </div>
     <!-- =====Header navigation===== -->
     <header class="header">
         <div class="header__nav">
@@ -29,7 +22,7 @@
                 </span>
             </button>
             <nav class="header__menu" id="btnClose">
-                <img class="header__img" src="./images/cc.logo.large.png" alt="Company logo">
+                <a href="./index.html"><img class="header__img" src="./images/cc.logo.large.png" alt="Company logo"></a>
                 <div>
                     <ul class="header__li">
                         <li><a class="header__a" href="./about.html">About</a></li>
@@ -44,8 +37,32 @@
                     close
                 </span>
             </nav>
+
         </div>
     </header>
+    <!-- =====Desktop media bar===== -->
+    <div class="desktop__mediaBar">
+        <img class="desktop__mediaImg" src="./icons/twitter.png" alt="twitter icon">
+        <img class="desktop__mediaImg" src="./icons/facebook.png" alt="facebook icon">
+        <p class="desktop__mediaParagraph">Logout</p>
+        <p class="desktop__mediaParagraph">My Page</p>
+        <p class="desktop__mediaParagraph">English</p>
+    </div>
+
+    <!-- =====Desktop menu===== -->
+    <nav class="desktop__menu" id="">
+        <a href="./index.html"><img class="header__img" src="./images/cc.logo.large.png" alt="Company logo"></a>
+        <div>
+            <ul class="header__li">
+                <li><a class="header__a" href="./about.html">About</a></li>
+                <li><a class="header__a cl-blk" href="#">Program</a></li>
+                <li><a class="header__a cl-blk" href="#">Join</a></li>
+                <li><a class="header__a cl-blk" href="#">Sponsor</a></li>
+                <li><a class="header__a cl-blk" href="#">News</a></li>
+                <li><a class="header__a" href="#">CC Campaign</a></li>
+            </ul>
+        </div>
+    </nav>
     <!-- =====Headline===== -->
     <section>
         <div class="headline">
@@ -61,7 +78,7 @@
         </div>
     </section>
     <!-- =====Main program===== -->
-    <section class="main">
+    <main class="main">
         <div class="main__container">
             <h2 class="main__title">Main Program</h2>
             <hr class="main__hr">
@@ -94,29 +111,35 @@
                     teachers and with our online
                     classes and our personalized advice you will achieve your academic goals.</p>
             </div>
-            <div>
-                <div class="main__menu">
-                    <span class="material-symbols-outlined">
-                        developer_mode
-                    </span>
-                    <h3 class="main__subtitle">Full-Stack Dev</h3>
-                    <p class="main__paragraph">Become an international software developer, from anywhere and earn a lot
-                        of money.</p>
-                </div>
-                <div class="main__menu">
-                    <span class="material-symbols-outlined">
-                        draw
-                    </span>
-                    <h3 class="main__subtitle">Ux/Ui</h3>
-                    <p class="main__paragraph">The UI/UX Design course brings a design-centric approach to user
-                        interface and user experience
-                        design, and offers practical.</p>
-                </div>
+
+            <div class="main__menu">
+                <span class="material-symbols-outlined">
+                    developer_mode
+                </span>
+                <h3 class="main__subtitle">Full-Stack Dev</h3>
+                <p class="main__paragraph">Become an international software developer, from anywhere and earn a lot
+                    of money.</p>
             </div>
-            <button class="main__btn">
-                <a href="">JOIN US</a>
-            </button>
-    </section>
+            <div class="main__menu">
+                <span class="material-symbols-outlined">
+                    draw
+                </span>
+                <h3 class="main__subtitle">Ux/Ui</h3>
+                <p class="main__paragraph">The UI/UX Design course brings a design-centric approach to user
+                    interface and user experience
+                    design, and offers practical.</p>
+            </div>
+        </div>
+
+        <button class="main__btn">
+            <a href="">JOIN US</a>
+        </button>
+        <p class="main__link">
+            SEE THE WHOLE PROGRAM
+            <hr>
+        </p>
+
+    </main>
     <!-- =====Professors===== -->
     <section class="tutors">
         <div class="tutors__content">
@@ -131,6 +154,20 @@
                     expand_more
                 </span></p>
         </button>
+    </section>
+    <!-- =====Partner===== -->
+    <section class="partner partner-mobile">
+        <div>
+            <h2 class="partner__title">Partner</h2>
+            <hr class="partner__hr">
+        </div>
+        <div class="partner__logos">
+            <img class="partner__logo" src="./images/mozilla.png" alt="mozzilla logo">
+            <img class="partner__logo" src="./images/google.png" alt="google logo">
+            <img class="partner__logo" src="./images/angular.png" alt="angular logo">
+            <img class="partner__logo airtable" src="./images/airtable.png" alt="airtable logo">
+            <img class="partner__logo airbnb" src="./images/airbnb.png" alt="airbnb logo">
+        </div>
     </section>
     <!-- =====Footer===== -->
     <footer>
