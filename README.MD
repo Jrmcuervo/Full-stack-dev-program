@@ -25,7 +25,7 @@
 
 # 📖 Full-stack dev program <a id="about-project"></a>
 
-> In this capstone project, I am going to create an online website for a company that gives a course to be a full-stack developer.
+> In this capstone project, I am going to create an online website for a company that gives courses to be a full-stack developer.
 
 ## 🛠 Built With <a id="built-with"></a>
 
@@ -67,10 +67,8 @@
 
 ## 🚀 Live Demo <a id="live-demo"></a>
 
-> Add a link to your deployed project.
 
-
-- [Live Demo Link](https://github.com/Jrmcuervo/)
+- [Live Demo Link](https://jrmcuervo.github.io/Full-stack-dev-program/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -168,7 +166,7 @@ If you like this project please star this repo.
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank microverse inc. for helping me in my professional carreer. 
+This web page has been created using a Cindy Shin design. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

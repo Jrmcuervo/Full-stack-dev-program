@@ -6,7 +6,7 @@ const profiles = [
     role: 'Front end and information technology teacher.',
   },
   {
-    img: '../images/profile2.png',
+    img: './images/profile2.png',
     name: 'Carlos Baez',
     expertise: 'Human capital graduate from UVM University, expert in professional profiles.',
     role: 'In charge of the human capital and admission department.',
