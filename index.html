@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <!-- =====Header navigation===== -->
+    <header class="header">
+        <div class="header__nav">
+            <button class="header__btn" id="btnOpen">
+                <span class="material-symbols-outlined">
+                    list
+                </span>
+            </button>
+            <nav class="header__menu" id="btnClose">
+                <a href="./index.html"><img class="header__img" src="./images/cc.logo.large.png" alt="Company logo"></a>
+                <div>
+                    <ul class="header__li">
+                        <li><a class="header__a" href="./about.html">About</a></li>
+                        <li><a class="header__a" href="#">Program</a></li>
+                        <li><a class="header__a" href="#">Join</a></li>
+                        <li><a class="header__a" href="#">Sponsor</a></li>
+                        <li><a class="header__a" href="#">News</a></li>
+                        <li><a class="header__a" href="#">CC Campaign</a></li>
+                    </ul>
+                </div>
+                <span class="material-symbols-outlined">
+                    close
+                </span>
+            </nav>
+
+        </div>
+    </header>
+    <!-- =====Desktop media bar===== -->
+    <div class="desktop__mediaBar">
+        <img class="desktop__mediaImg" src="./icons/twitter.png" alt="twitter icon">
+        <img class="desktop__mediaImg" src="./icons/facebook.png" alt="facebook icon">
+        <p class="desktop__mediaParagraph">Logout</p>
+        <p class="desktop__mediaParagraph">My Page</p>
+        <p class="desktop__mediaParagraph">English</p>
+    </div>
+
+    <!-- =====Desktop menu===== -->
+    <nav class="desktop__menu" id="">
+        <a href="./index.html"><img class="header__img" src="./images/cc.logo.large.png" alt="Company logo"></a>
+        <div>
+            <ul class="header__li">
+                <li><a class="header__a" href="./about.html">About</a></li>
+                <li><a class="header__a cl-blk" href="#">Program</a></li>
+                <li><a class="header__a cl-blk" href="#">Join</a></li>
+                <li><a class="header__a cl-blk" href="#">Sponsor</a></li>
+                <li><a class="header__a cl-blk" href="#">News</a></li>
+                <li><a class="header__a" href="#">CC Campaign</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- =====Headline===== -->
+    <section>
+        <div class="headline">
+            <h1 class="headline__title">"Hello community!"</h1>
+            <p class="headline__subtitle">Come with us, learn how to program in the highest paid language of 2023</p>
+            <div>
+                <p class="headline__paragraph">Join our student community, learn with us and with our qualified teachers
+                    with online classes, our
+                    goal is that you obtain a quality education. <strong>Enter our next informative forum.</strong></p>
+            </div>
+            <p class="headline__date"><strong>27.02.2023(MON)~1000 HRS(MEX)</strong></p>
+            <p class="headline__foro">@ Kraus cultural forum, CDMX</p>
+        </div>
+    </section>
+    <!-- =====Main program===== -->
+    <main class="main">
+        <div class="main__container">
+            <h2 class="main__title">Main Program</h2>
+            <hr class="main__hr">
+        </div>
+        <div class="main__content">
+            <div class="main__menu">
+                <span class="material-symbols-outlined">
+                    account_tree
+                </span>
+                <h3 class="main__subtitle">Program</h3>
+                <p class="main__paragraph">Get to know our academic program recognized by the SEV, endorsed by the
+                    Mexican student technology
+                    society.</p>
+            </div>
+            <div class="main__menu">
+                <span class="material-symbols-outlined">
+                    school
+                </span>
+                <h3 class="main__subtitle">Courses</h3>
+                <p class="main__paragraph">Discover the 30+ online courses that we have for you with official
+                    certification from the CDMX
+                    Secretary of Education, with online classes and trained tutors.</p>
+            </div>
+            <div class="main__menu">
+                <span class="material-symbols-outlined">
+                    podium
+                </span>
+                <h3 class="main__subtitle">Professors</h3>
+                <p class="main__paragraph">All our teachers are active professionals in their field, trained to be
+                    teachers and with our online
+                    classes and our personalized advice you will achieve your academic goals.</p>
+            </div>
+
+            <div class="main__menu">
+                <span class="material-symbols-outlined">
+                    developer_mode
+                </span>
+                <h3 class="main__subtitle">Full-Stack Dev</h3>
+                <p class="main__paragraph">Become an international software developer, from anywhere and earn a lot
+                    of money.</p>
+            </div>
+            <div class="main__menu">
+                <span class="material-symbols-outlined">
+                    draw
+                </span>
+                <h3 class="main__subtitle">Ux/Ui</h3>
+                <p class="main__paragraph">The UI/UX Design course brings a design-centric approach to user
+                    interface and user experience
+                    design, and offers practical.</p>
+            </div>
+        </div>
+
+        <button class="main__btn">
+            <a href="">JOIN US</a>
+        </button>
+        <p class="main__link">
+            SEE THE WHOLE PROGRAM
+            <hr>
+        </p>
+
+    </main>
+    <!-- =====Professors===== -->
+    <section class="tutors">
+        <div class="tutors__content">
+            <h2 class="tutors__title">Professors</h2>
+            <hr class="tutors__hr">
+        </div>
+        <div id="professionalProfiles">
+            <!-- =====Dynamic Profiles===== -->
+        </div>
+        <button class="tutors__btn">
+            <p class="tutors__icon">More<span class="material-symbols-outlined tutors__arrow">
+                    expand_more
+                </span></p>
+        </button>
+    </section>
+    <!-- =====Partner===== -->
+    <section class="partner partner-mobile">
+        <div>
+            <h2 class="partner__title">Partner</h2>
+            <hr class="partner__hr">
+        </div>
+        <div class="partner__logos">
+            <img class="partner__logo" src="./images/mozilla.png" alt="mozzilla logo">
+            <img class="partner__logo" src="./images/google.png" alt="google logo">
+            <img class="partner__logo" src="./images/angular.png" alt="angular logo">
+            <img class="partner__logo airtable" src="./images/airtable.png" alt="airtable logo">
+            <img class="partner__logo airbnb" src="./images/airbnb.png" alt="airbnb logo">
+        </div>
+    </section>
+    <!-- =====Footer===== -->
+    <footer>
+        <div class="footer__content">
+            <img class="footer__logo" src="./images/cc.logo.large.png" alt="creative commons logo">
+            <p class="footer__paragraph">2023 Happy Coding Educational Experiences Mexico <br> Some Rights Reserved.
+            </p>
+        </div>
+    </footer>
+    <script src="profiles.js"></script>
+    <script src="toggler.js"></script>
+</body>
+
+
+</html>
